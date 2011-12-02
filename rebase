@@ -1,0 +1,4 @@
+I thought that I wanted the rebase command,
+but actually I was after the 
+git resete --soft $(git log --pretty=format:'%h'|tail -n 1)
+git commit --amend

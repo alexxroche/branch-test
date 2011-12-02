@@ -1,0 +1,9 @@
+Here in the dev branch we merge in all the other branches
+
+so it is worth knowing:
+
+== to reset the logs for a branch ==
+git reset --soft $(git log --pretty=format:'%h'|tail -n1)
+git commit --amend
+
+That resets the logs but with the --soft it does not touch the files in this branch.
