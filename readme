@@ -1,5 +1,16 @@
 This is the public master branch.
 
-I'm uploading this branch of this repo
+I'm uploading this branch of this repo to see if other branches are also uploaded.
 
-to see if other branches are also uploaded.
+git remote add origin git@github.com:alexxroche/branch-test.git
+git push -v origin master
+
+... and there is another branch called private, but you do not get that with:
+
+git clone git://github.com/alexxroche/branch-test.git
+
+(hardly surprising as the 'remote add' and push used master)
+
+
+This way you can create a local branch and it is not pushed out to github.
+
