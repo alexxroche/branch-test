@@ -1,5 +1,1 @@
-This is a secret development plan:
-
-Create a 'dev' branch and then work on that, only merging back-ports into the main, until the dev branch is ready to take over.
-
-we MUST not let those working on and from the master branch, know about this dev branch
+We are please to let you know that we now have a new dev branch ready
