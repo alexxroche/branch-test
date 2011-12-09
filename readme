@@ -7,3 +7,5 @@ git reset --soft $(git log --pretty=format:'%h'|tail -n1)
 git commit --amend
 
 That resets the logs but with the --soft it does not touch the files in this branch.
+
+checking this logic again
