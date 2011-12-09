@@ -1,1 +1,13 @@
 We are please to let you know that we now have a new version of this test
+=======
+Here in the master branch we merge in all the other dev branches (except the private one)
+
+so it is worth knowing:
+
+== to reset the logs for a branch ==
+git reset --soft $(git log --pretty=format:'%H'|tail -n1)
+git commit --amend
+
+That resets the logs but with the --soft it does not touch the files in this branch.
+
+You might have to do one more commit after that.
